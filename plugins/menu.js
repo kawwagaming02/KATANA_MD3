@@ -63,9 +63,6 @@ cmd(
 | *MAIN COMMANDS* |
     ▫️.alive
     ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
 | *DOWNLOAD COMMANDS* |
     ▫️.song <text>
     ▫️.video <text>
@@ -84,15 +81,17 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥶𝐌𝐚𝐝𝐞 𝐛𝐲 •---» Ҝ𝐀ώรн𝒶Ļ𝐀 «---•🥶
 
-> ROBIN MENU MSG
+FREE DEPLOY
+
+> KATANA MENU MSG
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://raw.githubusercontent.com/kawwagaming02/kawshala-md/refs/heads/main/images/KAWSHALA-MD%20(1).jpg",
           },
           caption: madeMenu,
         },
