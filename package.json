@@ -1,12 +1,13 @@
 {
   "name": "•◉✿ KATANA ✿◉•",
   "version": "1.0.0",
-  "description": "WhatsApp bot Node.js",
+  "description": "WhatsApp bot එකක් Node.js වලින් හදපු එක",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name •◉✿ KATANA ✿◉•",
-    "stop": "pm2 stop •◉✿ KATANA ✿◉•",
-    "restart": "pm2 restart •◉✿ KATANA ✿◉•"
+    "start": "node index.js",
+    "pm2-start": "pm2 start index.js --name KATANA",
+    "pm2-stop": "pm2 stop KATANA",
+    "pm2-restart": "pm2 restart KATANA"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
